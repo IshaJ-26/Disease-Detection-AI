@@ -48,34 +48,6 @@ Visualization: Matplotlib, Seaborn
 Deployment: Flask/FastAPI, Docker, AWS/GCP
 
 
-Installation
-
-
-Clone the repository:
-
-git clone https://github.com/yourusername/ai-disease-diagnosis.git
-
-
-Navigate to the project directory:
-
-cd ai-disease-diagnosis
-
-
-Install dependencies:
-
-pip install -r requirements.txt
-
-
-Set up environment variables (create a .env file and add necessary configurations):
-
-MODEL_PATH=path_to_trained_model
-DATASET_PATH=path_to_dataset
-
-
-Run the application:
-
-python app.py
-
 
 
 Usage
@@ -87,26 +59,6 @@ The model analyzes the images and provides a diagnosis.
 View the heatmap visualization for explainability.
 
 Download or integrate results into other applications.
-
-Contribution
-
-Contributions are welcome! To contribute:
-
-Fork the repository.
-
-Create a new branch (feature-branch):
-
-git checkout -b feature-branch
-
-Make your changes and commit:
-
-git commit -m "Added new feature"
-
-Push to your branch:
-
-git push origin feature-branch
-
-Open a Pull Request.
 
 License
 
